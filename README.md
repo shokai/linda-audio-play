@@ -5,6 +5,7 @@ play audio file with RocketIO::Linda
 * https://github.com/shokai/linda-audio-play
 * watch a Tuple ["audio", "play", URL] and play.
 * write a Tuple ["audio", "play", URL, "start"] and ["audio", "play", URL, "end"] 
+* watch a Tuple ["audio", "stop"] and stop.
 
 
 Dependencies
