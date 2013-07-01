@@ -1,31 +1,31 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.4)
+    addressable (2.3.5)
     cookiejar (0.3.0)
-    dotenv (0.7.0)
+    dotenv (0.8.0)
     em-cometio-client (0.1.1)
       em-http-request
       event_emitter (>= 0.2.0)
       eventmachine
       json
-    em-http-request (1.0.3)
-      addressable (>= 2.2.3)
+    em-http-request (1.1.0)
+      addressable (>= 2.3.4)
       cookiejar
-      em-socksify
-      eventmachine (>= 1.0.0.beta.4)
-      http_parser.rb (>= 0.5.3)
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0.beta.2)
     em-rocketio-client (0.1.1)
       em-cometio-client
       em-http-request
       em-websocketio-client
       event_emitter
       eventmachine
-    em-rocketio-linda-client (0.0.1)
+    em-rocketio-linda-client (0.0.2)
       em-rocketio-client
       event_emitter
       eventmachine
-    em-socksify (0.2.1)
+    em-socksify (0.3.0)
       eventmachine (>= 1.0.0.beta.4)
     em-websocket-client (0.1.1)
       eventmachine
@@ -40,13 +40,13 @@ GEM
     foreman (0.63.0)
       dotenv (>= 0.7)
       thor (>= 0.13.6)
-    http_parser.rb (0.5.3)
+    http_parser.rb (0.6.0.beta.2)
     json (1.8.0)
     libwebsocket (0.1.8)
       addressable
       websocket
     thor (0.18.1)
-    websocket (1.0.7)
+    websocket (1.1.0)
 
 PLATFORMS
   ruby
