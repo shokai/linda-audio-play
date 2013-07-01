@@ -2,11 +2,15 @@ Linda Audio Play
 ================
 play audio file with RocketIO::Linda
 
-* https://github.com/shokai/linda-audio-play
-* watch a Tuple ["audio", "play", URL] and play.
-* write a Tuple ["audio", "play", URL, "start"] and ["audio", "play", URL, "end"] 
-* watch a Tuple ["audio", "stop"] and stop.
-
+*https://github.com/shokai/linda-audio-play
+* play URL
+  - watch a Tuple ["audio", "play", "url", URL] and play.
+  - write a Tuple ["audio", "play", "url", URL, "start"] and ["audio", "play", "url", URL, "end"] 
+  - watch a Tuple ["audio", "stop"] and stop.
+* play Base64 encoded AudioFile
+  - watch a Tuple ["audio", "play", "base64", base64_string] and play.
+  - write a Tuple ["audio", "play", "base64", "", "start"] and ["audio", "play", "base64", "", "end"] 
+  - watch a Tuple ["audio", "stop"] and stop.
 
 Dependencies
 ------------
